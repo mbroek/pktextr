@@ -1,0 +1,16 @@
+# Configuration file for pktextract
+# Lines with first nonblank character are comments
+
+# Where to log results, mandatory item.
+logfile		/opt/mbse/log/pktextract.log
+
+# When you want output in CSV comma separated format
+# for import in spreadsheets define the next item:
+csvfile		/opt/mbse/log/data.csv
+
+# When you want output in SQL format that can be used
+# to load the results in for example MySQL set the 
+# following items:
+sqlfile		/opt/mbse/log/data.sql
+sqltable	fidonet
+

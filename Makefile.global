@@ -1,0 +1,24 @@
+# Compile-time configuration for pktextr
+# $Id$
+
+VERSION		= 0.1.3
+PACKAGE		= pktstat
+
+# for make install, where to put binaries and what owner to set
+SUBDIRS		= src
+PREFIX		= /opt/mbse
+BINDIR		= /opt/mbse/bin
+ETCDIR		= /opt/mbse/etc
+DOCDIR		= /opt/mbse/doc
+
+INSTALL		= ginstall
+RANLIB		= ranlib
+SHELL		= /bin/sh
+ECHO		= echo -e
+CC		= gcc
+TAR		= tar
+ZIP		= zip
+
+CFLAGS		= -O2 -Wall -Wshadow -Wwrite-strings -Wstrict-prototypes -pipe
+LIBS		= 
+

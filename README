@@ -1,0 +1,23 @@
+$Id$
+
+				Pktextr Packages.
+
+
+Distribution naming scheme:
+
+pktextr-0.33.18.tar.gz
+  |     | |  |
+  |     | |  +-------- minor patchlevel 
+  |     | +----------- minor version
+  |     +------------- major version
+  +------------------- package name
+
+For fidonet distribution, the tar archive and FILE_ID.DIZ are
+zipped together in a file like pktx3318.zip
+
+The odd minor version numbers are developent versions only. 
+
+The even minor version numbers will be stable releases, they will be available
+at http://mbse.sourceforge.net and at 2:280/2802.
+
+

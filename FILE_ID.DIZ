@@ -1,0 +1,17 @@
+    -= PktExtr v0.1.3 for Unix =-
+PktExtr is a Fidonet mail packet extractor to
+collect data from tossed mail. It should be
+called by the tosser after the mail packet
+is extracted from the archiver and before the
+packet is tossed.
+The results about the toss are written to a
+comma separated ascii file with data from each
+echomail message in the packet.
+Other programs may be used to process the 
+collected data.
+OS: Linux, FreeBSD and NetBSD.
+Originating sites 2:280/2802@fidonet and
+http://mbse.sourceforge.net/
+Copyright by Michiel Broek.
+Released under the terms of the GNU Public
+License.
