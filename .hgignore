@@ -1,0 +1,14 @@
+.filelist
+FILE_ID.DIZ
+autom4te.cache
+config.cache
+config.h
+config.log
+config.status
+stamp-h
+Makefile.global
+src/pktextract 
+src/filelist
+
+syntax: glob
+src/*.o
